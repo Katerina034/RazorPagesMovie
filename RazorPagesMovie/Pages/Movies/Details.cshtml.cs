@@ -21,6 +21,7 @@ namespace RazorPagesMovie.Pages.Movies
         public Movie Movie { get; set; }
 
         public async Task<IActionResult> OnGetAsync(int? id)
+            
         {
             if (id == null)
             {
